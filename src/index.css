@@ -58,11 +58,25 @@ form input{
 .footerText{
   margin: 0 auto;
 }
-
-.banner{
+.banner {
   text-align: center;
   font-size: 40px;
+  background-color: aquamarine;
 }
+.banner-min {
+  height: 100px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.showsBtn{
+  width: 100px;
+  margin: 0 auto;
+}
+.banner-max {
+  height: auto;
+  transition: 0.5s;
+}
+
 
 .footer{
   margin-top: 10%;
@@ -70,4 +84,10 @@ form input{
   width: 100%;
   text-align: center;
   font-size: 40px;
+}
+
+.showBtn{
+  background-color: yellow;
+  padding: 20px 10px;
+  
 }
